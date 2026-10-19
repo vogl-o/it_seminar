@@ -29,11 +29,12 @@ h2 {
     border-bottom: 2px solid #0056b3;
     padding-bottom: 5px;
     margin-top: 20px;
+    font-color: #e8eaeb;
 }
 
 .pozdrav {
     text-align: center;
-    color: #e8eaeb;
+    font-color: #e8eaeb;
     font-size: 18px;
     margin-top: 20px;
 }
