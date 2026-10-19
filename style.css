@@ -31,6 +31,13 @@ h2 {
     margin-top: 20px;
 }
 
+.pozdrav {
+    text-align: center;
+    color: #e8eaeb;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 ul {
     margin-left: 20px;
 }
