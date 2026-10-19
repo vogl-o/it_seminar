@@ -10,14 +10,14 @@ h1 {
     text-align: center;
 }
 
-.menu {
+.přihláška {
     text-align: center;
     background-color: #b3d9ff;
     padding: 10px;
     margin-bottom: 20px;
 }
 
-.menu a {
+.přihláška a {
     color: #003366;
     text-decoration: none;
     font-weight: bold;
