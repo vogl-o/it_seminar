@@ -27,18 +27,18 @@ h2 {
     padding-bottom: 5px;
     margin-top: 20px;
 }
-.o-nas p {
+#o-nas p {
     color: #e8eaeb;
     font-size: 16px;
     margin-top: 10px;
 }
 
-.kurzy ul {
+#kurzy ul {
     margin-left: 20px;
     color: #e8eaeb;
 }
 
-.pozdrav {
+#pozdrav {
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
