@@ -10,15 +10,41 @@ h1 {
     text-align: center;
 }
 
-.přihláška {
-    text-align: center;
-    background-color: #002b58;
-    padding: 10px;
+/* Obrázek koníka vpravo (upravená i velikost, aby nerozbíjel stránku) */
+.konik {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
 }
 
-.přihláška + a {
-    color: #9aff47;
-    text-align: right;
+/* Blok s přihláškou - skočí až pod koníka a vycentruje obsah */
+.prihlaska {
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.prihlaska h3 {
+    color: #e8eaeb;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Stylování odkazu jako světlé tlačítko (aby šlo dobře vidět) */
+.prihlaska a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #0056b3;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.prihlaska a:hover {
+    background-color: #0077b6;
 }
 
 h2 {
