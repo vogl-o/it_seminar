@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #002b58;
-    color: #333333;
+    color: #e8eaeb;
     margin: 30px;
 }
 
@@ -10,7 +10,24 @@ h1 {
     text-align: center;
 }
 
-/* Obrázek koníka vpravo (upravená i velikost, aby nerozbíjel stránku) */
+h2 {
+    color: #e8eaeb;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+p {
+    color: #e8eaeb;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+ul {
+    margin-left: 20px;
+    color: #e8eaeb;
+}
+
 .konik {
     float: right;
     width: 200px;
@@ -18,7 +35,6 @@ h1 {
     margin-left: 20px;
 }
 
-/* Blok s přihláškou - skočí až pod koníka a vycentruje obsah */
 .prihlaska {
     clear: both;
     text-align: center;
@@ -31,13 +47,11 @@ h1 {
     margin-bottom: 15px;
 }
 
-/* Stylování odkazu jako světlé tlačítko (aby šlo dobře vidět) */
 .prihlaska a {
     display: inline-block;
     color: #ffffff;
     background-color: #0056b3;
     padding: 10px 20px;
-    text-decoration: none;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
@@ -45,32 +59,4 @@ h1 {
 
 .prihlaska a:hover {
     background-color: #0077b6;
-}
-
-h2 {
-    color: #e8eaeb;
-    border-bottom: 2px solid #0056b3;
-    padding-bottom: 5px;
-    margin-top: 20px;
-}
-#o-nas + p {
-    color: #e8eaeb;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-#kurzy + ul {
-    margin-left: 20px;
-    color: #e8eaeb;
-}
-
-#pozdrav {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
-    color: #e8eaeb;
-}
-
-ul {
-    margin-left: 20px;
 }
