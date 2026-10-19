@@ -16,8 +16,8 @@ h1 {
     padding: 10px;
 }
 
-.přihláška a {
-    color: #003366;
+.přihláška + a {
+    color: #9aff47;
     text-align: right;
 }
 
@@ -27,13 +27,13 @@ h2 {
     padding-bottom: 5px;
     margin-top: 20px;
 }
-#o-nas p {
+#o-nas + p {
     color: #e8eaeb;
     font-size: 16px;
     margin-top: 10px;
 }
 
-#kurzy ul {
+#kurzy + ul {
     margin-left: 20px;
     color: #e8eaeb;
 }
